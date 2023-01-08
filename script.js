@@ -1,6 +1,16 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
+const audio = new Audio('./imagens/marioMusic.mp3')
+
+function playAudio(){
+    audio.play()
+}
+
+function pauseAudio(){
+    audio.pause()
+}
+
 const jump = () => {
     mario.classList.add('jump');
 

@@ -41,6 +41,27 @@ body{
   animation: jump 500ms ease-out;
 }
 
+.audio{
+  margin: 28px 28px;
+  cursor: pointer;
+}
+
+#mudo{
+  transition: 0.3s ease;
+}
+
+#mudo:hover{
+  transform: scale(1.10);
+}
+
+#som{
+  transition: 0.3s ease;
+}
+
+#som:hover{
+  transform: scale(1.10);
+}
+
 @keyframes pipe-animation{
   from{
       right: 0;
